@@ -1,0 +1,23 @@
+{
+  "name": "dropbear-vscode-themes-dark",
+  "displayName": "DropBear.VsCode.Themes.Dark",
+  "description": "A simply dark vscode theme with vibrant colors throughout. Primarily a c# theme.",
+  "version": "0.0.1",
+  "publisher": "Terrence Kuchel aka DropBear",
+  "icon": "128x128-icon.png",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DropBear.VsCode.Themes.Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DropBear.VsCode.Themes.Dark-color-theme.json"
+      }
+    ]
+  }
+}
